@@ -1,5 +1,5 @@
 var Q = JSON.parse($response.body);
-Q.data.user.lifetime_subscription = true;
-Q.data.user.store_subscription = true;
-Q.data.user.subscription = true;
-$done({body : JSON.stringify(Q)});
+Q.data.settings.lifetime_subscription = true;
+Q.data.settings.store_subscription = true;
+Q.data.settings.subscription = true;
+$done({ body: JSON.stringify(Q) });
