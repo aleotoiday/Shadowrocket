@@ -1,7 +1,11 @@
 #!name = 𝗦𝘄𝗶𝗳𝘁𝗴𝗿𝗮𝗺
 #!desc = 𝗯𝘆 𝗮𝗹𝗲𝗼𝗼
 
+#!name = 𝗦𝘄𝗶𝗳𝘁𝗴𝗿𝗮𝗺
+#!desc = 𝗯𝘆 𝗮𝗹𝗲𝗼𝗼
+
 [MITM]
-hostname= %APPEND% api.swiftgram.app
+hostname = %APPEND% api.swiftgram.app
+
 [Script]
-Swiftgram = type=http-response,pattern=^https?:\/\/(api\.swiftgram\.app\/api\/v\d\/user\/info|api\.swiftgram\.app\/restoreAccess),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/aleotoiday/Shadowrocket/main/Script/h.js,script-update-interval=0
+Swiftgram = type=http-response,pattern=^https?:\/\/(api\.swiftgram\.app\/api\/v\d\/user\/info|api\.swiftgram\.app\/restoreAccess|api\.swiftgram\.app\/v0\/settings),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/aleotoiday/Shadowrocket/main/Script/h.js,script-update-interval=0
