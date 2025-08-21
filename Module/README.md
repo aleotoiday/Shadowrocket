@@ -2,4 +2,4 @@
 
 | Stt | Chức Năng            | Liên Kết |
 |-----|----------------|------|
-| 1   | Mở Khoá Gold | [Locket](https://github.com/aleotoiday/Shadowrocket/blob/main/Module/LocketGold.sgmodule) |
+| 1   | Mở Khoá Gold | [Locket](https://raw.githubusercontent.com/aleotoiday/Shadowrocket/main/Module/LocketGold.sgmodule) |
